@@ -13,5 +13,9 @@ public class DemoApp {
    int count =name.toUpperCase().length();
    System.out.println(count);
 
+   StringBuffer sb = new StringBuffer("viratkholi");
+     int length =sb.append("INDRCB").reverse().length();
+     System.out.println(length);
+     
 }
 }
